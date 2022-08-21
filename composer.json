@@ -1,0 +1,30 @@
+{
+    "name": "chinovn/flarum-chart-bbcode",
+    "description": "Custom BBCode to add charts.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "forum": "https://discuss.flarum.org/",
+        "issues": "https://github.com/chinovn/flarum-chart-bbcode/issues",
+        "source": "https://github.com/chinovn/flarum-chart-bbcode"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.6 || ^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChinoVN\\BBCode\\Chart\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Chart BBCode",
+            "category": "feature",
+            "icon": {
+                "name": "far fa-chart-bar",
+                "backgroundColor": "#99cc33",
+                "color": "#336600"
+            }
+        }
+    }
+}
